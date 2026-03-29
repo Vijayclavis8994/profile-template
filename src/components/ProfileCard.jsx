@@ -16,13 +16,13 @@ import { FaWhatsapp } from "react-icons/fa";
 export default function ProfileCard() {
 
   const profile = {
-    name: "Ashish Sharma",
+    name: "Vijay Shankar Sah",
     role: "Frontend Developer",
     experience: "3+ Years Experience",
     description:
       "Frontend Developer with 3+ years of experience in Angular, React, and Next.js. Skilled in building scalable web apps, APIs, and high-performance UI.",
     image:
-      "/profile-img.jpeg",
+      "/vijay-profile-image.jpg",
 
     // ✅ Social with links
     social: [
