@@ -16,40 +16,13 @@ const NAV_H = 0;
 /* 🔥 EXPERIENCE DATA */
 const EXPERIENCE = [
     {
-        role: 'Freelancer',
-        company: 'ARD Web Solution',
-        location: 'Azamgarh, India',
-        workType: 'WFH',
-        workLocation: 'Remote',
-        skills: ['React', 'Angular', 'Next.js', 'API Integration', 'Performance Optimization', 'SEO', 'Digital Marketing', 'E-commerce', 'SMO'],
-        duration: 'May 2025 – Present',
-        desc: 'Leading freelance development of scalable web applications, focusing on performance, maintainability, and integrating digital marketing strategies such as SEO and analytics to deliver real business value.',
-        points: [
-            'Developing responsive, scalable, and high-performance web applications.',
-            'Building reusable and maintainable UI components for efficient development.',
-            'Integrating RESTful APIs and managing seamless client–server communication.',
-            'Optimizing application performance, load time, and cross-device compatibility.',
-            'Implementing SEO best practices and analytics tracking to improve visibility and user engagement.'
-        ],
-        projects: ['dev.hiringscout.ai', 'free29.com', 'ninetofive.in'],
-        logo: '/ard-logo.jpeg',
-        socials: {
-            linkedin: 'https://linkedin.com/company/ard-web-solution',
-            instagram: 'https://instagram.com/ardwebsolution',
-            facebook: 'https://facebook.com/ardwebsolution',
-            twitter: 'https://x.com/ardwebsolution',
-            youtube: 'https://youtube.com/@ardwebsolution',
-            website: 'https://ardwebsolution.com'
-        }
-    },
-    {
         role: 'Frontend Developer',
         company: 'Clavis Technologies',
         location: 'Noida, India',
         workType: 'Full-time',
         workLocation: 'Onsite',
         skills: ['Angular', 'TypeScript', 'SCSS', 'Admin Panels', 'API Integration'],
-        duration: 'Sept 2021 – Apr 2025',
+        duration: 'Aug 2021 – Apr 2025',
         desc: 'Developed and maintained enterprise-level applications and admin panels, focusing on scalability, performance, and seamless user experience.',
         points: [
             'Independently developed the Unlimits Admin Panel with scalable architecture.',

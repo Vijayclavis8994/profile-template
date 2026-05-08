@@ -67,7 +67,7 @@ export default function Hero({ setActiveTab }) {
           transition={{ duration: 0.5 }}
           className="flex items-center gap-3 text-sm text-slate-300"
         >
-          👋 Hi, I'm<span className="text-yellow-400 font-semibold"> Ashish,</span><span>Frontend Developer</span>
+          👋 Hi, I'm<span className="text-yellow-400 font-semibold"> Vijay Shankar,</span><span>Frontend Developer</span>
         </motion.p>
 
         {/* Heading */}

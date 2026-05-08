@@ -7,6 +7,7 @@ import {
   FiInstagram,
   FiFacebook,
   FiDribbble,
+  // FiBehance,
   FiGithub,
   FiCheckCircle
 } from "react-icons/fi";
@@ -18,21 +19,21 @@ export default function ProfileCard() {
   const profile = {
     name: "Vijay Shankar Sah",
     role: "Frontend Developer",
-    experience: "3+ Years Experience",
+    experience: "6+ Years Experience",
     description:
-      "Frontend Developer with 3+ years of experience in Angular, React, and Next.js. Skilled in building scalable web apps, APIs, and high-performance UI.",
+      "Frontend Developer with 6+ years of experience in Angular, React, and Next.js. Skilled in building scalable web apps, APIs, and high-performance UI.",
     image:
       "/vijay-profile-image.jpg",
 
     // ✅ Social with links
     social: [
-      { label: 'IN', link: 'https://www.linkedin.com/in/ashishrdsharma', active: true },
-      { label: 'GH', link: 'https://github.com/ashishrdsharma', active: false },
-      { label: 'WA', link: 'https://wa.me/919151600297', active: false },
-      { label: 'X', link: 'https://twitter.com/ashishrdsharma', active: false },
-      { label: 'IG', link: 'https://instagram.com/ashishrdsharma', active: false },
-      { label: 'FB', link: 'https://facebook.com/ashishrdsharma', active: false },
-      // { label: 'DR', link: 'https://dribbble.com/', active: false },
+      { label: 'IN', link: 'https://www.linkedin.com/in/vijay-shankar-sah-844076101/', active: true },
+      { label: 'GH', link: 'https://github.com/Vijayclavis8994', active: false },
+      { label: 'WA', link: 'https://wa.me/9899262078', active: false },
+      { label: 'X', link: 'https://twitter.com/vijayshankar8994', active: false },
+      { label: 'IG', link: 'https://instagram.com/vijayshankar8994', active: false },
+      { label: 'FB', link: 'https://facebook.com/vijayshankar8994', active: false },
+      { label: 'BE', link: 'https://www.behance.net/vijayshank4419', active: false },
     ],
   };
 
@@ -51,8 +52,8 @@ export default function ProfileCard() {
         return FiInstagram;
       case "FB":
         return FiFacebook;
-      case "DR":
-        return FiDribbble;
+      // case "BE":
+      //   return FiBehance;
       default:
         return FiLinkedin;
     }
@@ -119,7 +120,7 @@ export default function ProfileCard() {
 
       {/* Button */}
       <a
-        href="/Ashish_Resume.pdf"
+        href="/Vijay_Shankar_Resume.pdf"
         download
         className="mt-4 mb-8 inline-flex w-full items-center justify-center gap-2 rounded-full bg-yellow-400 px-6 py-3 text-sm font-bold text-black hover:scale-105 transition-all"
       >

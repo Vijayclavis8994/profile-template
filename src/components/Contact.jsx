@@ -53,28 +53,28 @@ export default function Contact() {
             <div className="flex items-center gap-2">
               <FiMapPin className="text-yellow-400" />
               <span>
-                A-24, First Floor, Joshi Colony, Mandawali I.P. Ext, India - 110092
+                Mayur Vihar, Delhi, India - 110096
               </span>
             </div>
 
             <div className="flex items-center gap-2">
               <FiPhone className="text-yellow-400" />
 
-              <a href="tel:919151600297" className="hover:text-yellow-400">
-                +91 9151600297
+              <a href="tel:9899262078" className="hover:text-yellow-400">
+                +91 9899262078
               </a>
 
-              <span className="text-slate-500">|</span>
+              {/* <span className="text-slate-500">|</span>
 
               <a href="tel:919953103691" className="hover:text-yellow-400">
                 +91 9953103691
-              </a>
+              </a> */}
             </div>
 
             <div className="flex items-start gap-2">
               <FiMail className="text-yellow-400 mt-[2px]" />
-              <a href="mailto:ashishrdsharma@gmail.com" className="hover:text-yellow-400">
-                ashishrdsharma@gmail.com
+              <a href="mailto:vijayshankar8994@gmail.com" className="hover:text-yellow-400">
+                vijayshankar8994@gmail.com
               </a>
             </div>
 
@@ -83,38 +83,38 @@ export default function Contact() {
           {/* 🔥 SOCIAL ICONS */}
           <div className="flex flex-wrap justify-center gap-4">
 
-            <a href="https://www.linkedin.com/in/ashishrdsharma" target="_blank" rel="noreferrer"
+            <a href="https://www.linkedin.com/in/vijay-shankar-sah-844076101/" target="_blank" rel="noreferrer"
               className="w-10 h-10 flex items-center justify-center rounded-full border border-white/10 bg-white/5 hover:bg-yellow-400 hover:text-black transition">
               <FaLinkedin size={16} />
             </a>
 
-            <a href="https://github.com/ashishrdsharma" target="_blank" rel="noreferrer"
+            <a href="https://github.com/Vijayclavis8994" target="_blank" rel="noreferrer"
               className="w-10 h-10 flex items-center justify-center rounded-full border border-white/10 bg-white/5 hover:bg-yellow-400 hover:text-black transition">
               <FaGithub size={16} />
             </a>
 
-            <a href="https://instagram.com/ashishrdsharma" target="_blank" rel="noreferrer"
+            <a href="https://instagram.com/vijayshankar8994" target="_blank" rel="noreferrer"
               className="w-10 h-10 flex items-center justify-center rounded-full border border-white/10 bg-white/5 hover:bg-yellow-400 hover:text-black transition">
               <FaInstagram size={16} />
             </a>
 
-            <a href="https://facebook.com/ashishrdsharma" target="_blank" rel="noreferrer"
+            <a href="https://facebook.com/vijayshankar8994" target="_blank" rel="noreferrer"
               className="w-10 h-10 flex items-center justify-center rounded-full border border-white/10 bg-white/5 hover:bg-yellow-400 hover:text-black transition">
               <FaFacebook size={16} />
             </a>
 
-            <a href="https://www.youtube.com/@ashishrdsharma" target="_blank" rel="noreferrer"
+            <a href="https://www.youtube.com/@vijayshankar8994" target="_blank" rel="noreferrer"
               className="w-10 h-10 flex items-center justify-center rounded-full border border-white/10 bg-white/5 hover:bg-yellow-400 hover:text-black transition">
               <FaYoutube size={16} />
             </a>
 
-            <a href="https://x.com/ashishrdsharma" target="_blank" rel="noreferrer"
+            <a href="https://x.com/vijayshankar8994" target="_blank" rel="noreferrer"
               className="w-10 h-10 flex items-center justify-center rounded-full border border-white/10 bg-white/5 hover:bg-yellow-400 hover:text-black transition">
               <FaXTwitter size={16} />
             </a>
 
             {/* ✅ WhatsApp Added */}
-            <a href="https://wa.me/919151600297" target="_blank" rel="noreferrer"
+            <a href="https://wa.me/919899262078" target="_blank" rel="noreferrer"
               className="w-10 h-10 flex items-center justify-center rounded-full border border-white/10 bg-white/5 hover:bg-yellow-400 hover:text-black transition">
               <SiWhatsapp size={16} />
             </a>
@@ -129,18 +129,18 @@ export default function Contact() {
 
         {/* Hire Me */}
         <button
-          onClick={() => window.location.href = "mailto:ashishrdsharma@gmail.com"}
+          onClick={() => window.location.href = "mailto:vijayshankar8994@gmail.com"}
           className="group flex items-center justify-center gap-2 p-4 rounded-2xl border border-white/15 bg-white/5 text-white transition-all duration-300 hover:border-yellow-400/60 hover:bg-yellow-400/10"
         >
           <FiSend className="text-lg group-hover:scale-110 transition" />
           <span
-            // onClick={() => window.location.href = "mailto:ashishrdsharma@gmail.com"}
+            // onClick={() => window.location.href = "mailto:vijayshankar8994@gmail.com"}
             className="text-sm font-semibold">Hire Me</span>
         </button>
 
         {/* Email */}
         <a
-          href="mailto:ashishrdsharma@gmail.com"
+          href="mailto:vijayshankar8994@gmail.com"
           className="group flex items-center justify-center gap-2 p-4 rounded-2xl border border-white/15 bg-white/5 text-white transition-all duration-300 hover:border-yellow-400/60 hover:bg-yellow-400/10"
         >
           <FiMail className="text-lg group-hover:scale-110 transition" />
@@ -149,7 +149,7 @@ export default function Contact() {
 
         {/* WhatsApp */}
         <a
-          href="https://wa.me/919151600297"
+          href="https://wa.me/919899262078"
           target="_blank"
           rel="noreferrer"
           className="group flex items-center justify-center gap-2 p-4 rounded-2xl border border-white/15 bg-white/5 text-white transition-all duration-300 hover:border-yellow-400/60 hover:bg-yellow-400/10"
@@ -160,7 +160,7 @@ export default function Contact() {
 
         {/* Download CV */}
         <a
-          href="/Ashish_Resume.pdf"
+          href="/Vijay_Shankar_Resume.pdf"
           download
           className="group flex items-center justify-center gap-2 p-4 rounded-2xl border border-white/15 bg-white/5 text-white transition-all duration-300 hover:border-yellow-400/60 hover:bg-yellow-400/10"
         >
@@ -179,7 +179,7 @@ export default function Contact() {
         </button>
 
         <a
-          href="mailto:ashishrdsharma@gmail.com"
+          href="mailto:vijayshankar8994@gmail.com"
           className="group flex flex-col items-center justify-center gap-2 p-4 rounded-2xl border border-white/15 bg-white/5 text-white transition-all duration-300 hover:border-yellow-400/60 hover:bg-yellow-400/10"
         >
           <FiMail className="text-xl group-hover:scale-110 transition" />
@@ -187,7 +187,7 @@ export default function Contact() {
         </a>
 
         <a
-          href="https://wa.me/919151600297"
+          href="https://wa.me/9899262078"
           target="_blank"
           rel="noreferrer"
           className="group flex flex-col items-center justify-center gap-2 p-4 rounded-2xl border border-white/15 bg-white/5 text-white transition-all duration-300 hover:border-yellow-400/60 hover:bg-yellow-400/10"
@@ -197,7 +197,7 @@ export default function Contact() {
         </a>
 
         <a
-          href="/Ashish_Sharma_CV.pdf"
+          href="/Vijay_Shankar_Resume.pdf"
           download
           className="group flex flex-col items-center justify-center gap-2 p-4 rounded-2xl border border-white/15 bg-white/5 text-white transition-all duration-300 hover:border-yellow-400/60 hover:bg-yellow-400/10"
         >
