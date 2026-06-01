@@ -19,7 +19,7 @@ export default function Education() {
                 <div className="px-5 py-3 flex justify-between items-start gap-4 flex-wrap border-b border-white/10">
                     <div>
                         <h2 className="text-base md:text-lg font-semibold text-white leading-tight">
-                            Veer Bahadur Singh Purvanchal University
+                            Glocal University Saharanpur U.P
                         </h2>
                         <p className="text-sm md:text-base font-medium text-yellow-400 mt-1">
                             Bachelor of Computer Application (BCA)
