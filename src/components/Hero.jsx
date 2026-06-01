@@ -96,7 +96,7 @@ export default function Hero({ setActiveTab }) {
           transition={{ duration: 1 }}
           className="mt-6 flex flex-wrap items-center gap-3"
         >
-          <Badge variant="outline">✔ 3+ Years Experience</Badge>
+          <Badge variant="outline">✔ 5+ Years Experience</Badge>
           <Badge variant="outline">✔ React / Angular / Next.js</Badge>
           <Badge variant="outline">✔ 10+ Projects Delivered</Badge>
           <Badge variant="outline">✔ SEO + Performance Optimized</Badge>
