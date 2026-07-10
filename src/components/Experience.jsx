@@ -25,13 +25,14 @@ const EXPERIENCE = [
         duration: 'Aug 2021 – Apr 2025',
         desc: 'Developed and maintained enterprise-level applications and admin panels, focusing on scalability, performance, and seamless user experience.',
         points: [
-            'Independently developed the Unlimits Admin Panel with scalable architecture.',
-            'Built and integrated APIs for the Whiteboard Admin Panel, including key modules.',
-            'Designed and implemented UI with API integration for Clavisign.',
-            'Contributed to platforms like EllaXestate and 2by2, improving performance and user experience.',
-            'Collaborated with cross-functional teams to deliver stable and high-quality solutions.'
+            'Built and shipped 15+ client-facing web applications using React.js and WordPress, consistently meeting deadlines in an agile delivery environment.',
+            'Converted Figma and Adobe XD mockups into pixel-perfect, fully responsive UIs, reducing design-todevelopment handoff revisions by ~40%.',
+            'Optimised website performance across 5 client projects — achieved average page load time reduction of 30–40% through code splitting, lazy loading, and image optimisation',
+            'Improved website load performance by up to 40% using optimization techniques',
+            'Reduced UI bugs by 50% through cross-browser testing and QA.',
+            'Delivered 30+ international client projects with high client satisfaction.'
         ],
-        projects: ['unlimitsdemo.clavis.digital', 'skillinventory.clavis.digital', 'ellaxestates.com'],
+        projects: ['zyratalk.com', 'sixsigmadentistry.com', 'skillinventory.clavis.digital', 'ellaxestates.com'],
         logo: '/logo-clavis.png',
         socials: {
             linkedin: 'https://www.linkedin.com/company/clavis-technologies/',
@@ -69,59 +70,45 @@ const EXPERIENCE = [
         }
     },
     {
-        role: 'SEO Analyst',
-        company: 'RNF Technologies',
+        role: 'Web & Graphic Designer',
+        company: 'Business2Sell & Service',
         location: 'Noida, India',
         workType: 'Full-time',
         workLocation: 'Onsite',
-        skills: ['SEO', 'SMO', 'GSC', 'Google Analytics', 'Keyword Research', 'Content Optimization', 'Link Building', 'Sumrush', 'Ahrefs'],
-        duration: 'May 2016 – Jan 2017',
-        desc: 'Executed SEO and SMO strategies to improve online visibility, organic traffic, and overall digital performance.',
-        points: [
-            'Planned and executed SEO strategies to improve search engine rankings and website visibility.',
-            'Conducted keyword research and optimized content for targeted traffic and better ranking.',
-            'Monitored website performance using Google Analytics and generated actionable insights.',
-            'Managed and optimized social media campaigns to enhance brand engagement and reach.',
-            'Collaborated with teams to align digital marketing efforts with business goals.'
-        ],
-        projects: ['isearchsolution.com', 'giftalove.com'],
-        logo: '/logo-rnf.png',
+        skills: [
+  'WordPress',
+  'HTML5',
+  'CSS3',
+  'Responsive Web Design',
+  'Adobe Photoshop',
+  'Adobe Illustrator',
+  'CorelDRAW',
+  'Cross-Browser Compatibility',
+  'Semantic HTML',
+  'WCAG Accessibility',
+],
+        duration: 'June 2019 – July 2021',
+        desc: 'Designed and developed end-to-end WordPress websites and brand identities for Australian clients, delivering high-quality UI/UX solutions, marketing assets, and websites from concept to deployment.',
+
+points: [
+    'Designed and developed complete website UIs for 30+ Australian clients across real estate, trade services, pest control, and legal industries.',
+    'Managed end-to-end WordPress projects including requirement gathering, UI design, content migration, testing, and live deployment with a 2–3 week average delivery timeline.',
+    'Created brand identities for 10+ businesses, including logos, colour palettes, and digital/print marketing materials using Adobe Creative Suite.',
+    'Designed print-ready creative assets such as banners, brochures, and social media graphics, ensuring zero rework with external print vendors.',
+    'Collaborated remotely with Australian clients across multiple time zones, managing feedback, revisions, and project delivery within agreed scope and timelines.'
+],
+        projects: ['bondcleaninginbrisbane.com.au', 'betterbondcleaning.com.au', 'betterpestcontrol.com.au', ],
+        logo: '/business2sell_logo.jpg',
         socials: {
-            linkedin: 'https://www.linkedin.com/company/rnf-technologies/',
-            instagram: 'https://www.instagram.com/rnftechnologies/',
-            facebook: 'https://www.facebook.com/RnFTechnologies',
-            twitter: 'https://x.com/rnftechnologies',
-            youtube: 'https://www.youtube.com/channel/UCSdzIIIHIPdAUEOio5YHnFQ',
-            website: 'https://rnftechnologies.com/'
+            linkedin: 'https://www.linkedin.com/company/business2sell-group/',
+            instagram: 'https://www.instagram.com/business2sell.group/',
+            facebook: 'https://www.facebook.com/business2sell.group',
+            twitter: 'twitter.com/GroupB2S',
+            youtube: 'https://www.youtube.com/@Business2sellGroup',
+            website: 'https://www.business2sell.group/'
         }
     },
-    {
-        role: 'Intern - Software Developer',
-        company: 'Nippon Data Systems',
-        location: 'Noida, India',
-        workType: 'Full-time',
-        workLocation: 'Onsite',
-        skills: ['HTML', 'CSS', 'JavaScript', 'Responsive Web Design', 'SEO Optimization', 'SMO', 'Google Analytics', 'Keyword Research'],
-        duration: 'May 2016 – Jan 2017',
-        desc: 'Worked on both web development and digital marketing initiatives, focusing on building optimized websites and executing SEO/SMO strategies to improve performance and online visibility.',
-        points: [
-            'Developed and maintained responsive websites with a focus on performance and user experience.',
-            'Planned and executed SEO strategies to improve search engine rankings and organic traffic.',
-            'Conducted keyword research and implemented on-page optimization techniques.',
-            'Tracked website performance using Google Analytics and generated actionable insights.',
-            'Managed social media campaigns to increase engagement and brand visibility.'
-        ],
-        projects: ['isearchsolution.com', 'giftalove.com'],
-        logo: '/nippon-logo.png',
-        socials: {
-            linkedin: 'https://www.linkedin.com/company/nippon-data-systems/',
-            instagram: 'https://www.instagram.com/nippondata/',
-            facebook: 'https://www.facebook.com/nippondatasystems/',
-            twitter: 'https://x.com/NipponData',
-            youtube: 'https://www.youtube.com/@nippondatasystems',
-            website: 'https://nippondata.com/'
-        }
-    },
+    
 ];
 
 export default function Experience() {
