@@ -36,8 +36,8 @@ export default function Education() {
                     <div className="flex justify-center md:justify-start">
                         <div className="w-28 h-28 rounded-full bg-white p-2 flex items-center justify-center shadow-lg">
                             <img
-                                src="/vbspu-logo.jpg"
-                                alt="VBSPU Logo"
+                                src="/The_Glocal_University-_Logo.png"
+                                alt="Glocal Logo"
                                 className="w-full h-full object-contain rounded-full"
                             />
                         </div>
@@ -80,7 +80,7 @@ export default function Education() {
 
                                 {/* Facebook */}
                                 <a
-                                    href="https://www.facebook.com/Vbspuofficial"
+                                    href="https://www.facebook.com/theglocaluniversity"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="w-9 h-9 flex items-center justify-center rounded-full border border-white/10 bg-white/5 hover:bg-yellow-400 hover:text-black transition"
@@ -88,19 +88,9 @@ export default function Education() {
                                     <FiFacebook size={16} />
                                 </a>
 
-                                {/* LinkedIn */}
-                                <a
-                                    href="https://www.linkedin.com/company/veer-bahadur-singh-purvanchal-university-jaunpur-official/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="w-9 h-9 flex items-center justify-center rounded-full border border-white/10 bg-white/5 hover:bg-yellow-400 hover:text-black transition"
-                                >
-                                    <FiLinkedin size={16} />
-                                </a>
-
                                 {/* Instagram */}
                                 <a
-                                    href="https://www.instagram.com/vbspu.jaunpur/"
+                                    href="https://www.instagram.com/theglocaluniversity/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="w-9 h-9 flex items-center justify-center rounded-full border border-white/10 bg-white/5 hover:bg-yellow-400 hover:text-black transition"
@@ -110,7 +100,7 @@ export default function Education() {
 
                                 {/* YouTube */}
                                 <a
-                                    href="https://www.youtube.com/c/VBSPurvanchalUniversityJaunpurUttarPradesh"
+                                    href="https://www.youtube.com/channel/UCzkzC1nXrxoOQIqeLDeAueA"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="w-9 h-9 flex items-center justify-center rounded-full border border-white/10 bg-white/5 hover:bg-yellow-400 hover:text-black transition"
@@ -118,15 +108,6 @@ export default function Education() {
                                     <FiYoutube size={16} />
                                 </a>
 
-                                {/* X (Twitter) */}
-                                <a
-                                    href="https://x.com/vbspu_official"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="w-9 h-9 flex items-center justify-center rounded-full border border-white/10 bg-white/5 hover:bg-yellow-400 hover:text-black transition"
-                                >
-                                    <FiTwitter size={16} />
-                                </a>
 
                             </div>
                         </div>
@@ -136,22 +117,7 @@ export default function Education() {
 
             {/* 🔥 CERTIFICATIONS (REALISTIC FOR YOUR PROFILE) */}
             <div className="grid md:grid-cols-3 gap-3">
-                {/* ORACLE */}
-                <motion.div whileHover={{ y: -5 }}>
-                    <Card className="overflow-hidden p-0 border border-white/10 bg-white/5">
-                        <div className="bg-yellow-400/20 flex items-center justify-center h-20">
-                            <span className="text-yellow-400 font-bold">ORACLE</span>
-                        </div>
-                        <div className="p-3 text-center">
-                            <h4 className="text-sm font-semibold">Oracle Certification</h4>
-                            <p className="text-xs text-slate-400 mt-1">
-                                Oracle D2K, Forms & Reports
-                            </p>
-                        </div>
-                    </Card>
-                </motion.div>
-
-                {/* ADCA */}
+                 {/* ADCA */}
                 <motion.div whileHover={{ y: -5 }}>
                     <Card className="overflow-hidden p-0 border border-white/10 bg-white/5">
                         <div className="bg-blue-400/20 flex items-center justify-center h-20">
@@ -160,7 +126,22 @@ export default function Education() {
                         <div className="p-3 text-center">
                             <h4 className="text-sm font-semibold">ADCA Certification</h4>
                             <p className="text-xs text-slate-400 mt-1">
-                                HTML, CSS, JavaScript Basics
+                                HTML, CSS, JavaScript, React Js, Angular Js
+                            </p>
+                        </div>
+                    </Card>
+                </motion.div>
+
+                {/* DMA */}
+                <motion.div whileHover={{ y: -5 }}>
+                    <Card className="overflow-hidden p-0 border border-white/10 bg-white/5">
+                        <div className="bg-yellow-400/20 flex items-center justify-center h-20">
+                            <span className="text-yellow-400 font-bold">DMA</span>
+                        </div>
+                        <div className="p-3 text-center">
+                            <h4 className="text-sm font-semibold">Diploma in Multimedia Animation</h4>
+                            <p className="text-xs text-slate-400 mt-1">
+                                Graphic Design, 2D/3D Animation, Video Editing
                             </p>
                         </div>
                     </Card>
@@ -170,12 +151,12 @@ export default function Education() {
                 <motion.div whileHover={{ y: -5 }}>
                     <Card className="overflow-hidden p-0 border border-white/10 bg-white/5">
                         <div className="bg-green-400/20 flex items-center justify-center h-20">
-                            <span className="text-green-400 font-bold">SEO</span>
+                            <span className="text-green-400 font-bold">UI/UX</span>
                         </div>
                         <div className="p-3 text-center">
-                            <h4 className="text-sm font-semibold">Digital Marketing</h4>
+                            <h4 className="text-sm font-semibold">UI/UX Design</h4>
                             <p className="text-xs text-slate-400 mt-1">
-                                SEO, SMO & Analytics
+                                Figma, Adobe XD, Photoshop, Illustrator
                             </p>
                         </div>
                     </Card>

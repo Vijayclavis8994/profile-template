@@ -2,20 +2,44 @@ import React, { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 import {
-  FaReact, FaAngular, FaHtml5, FaCss3Alt, FaJs, FaGitAlt,
-  FaFigma, FaSearch, FaDatabase, FaWordpress, FaCode, FaChrome
+  FaReact,
+  FaAngular,
+  FaHtml5,
+  FaCss3Alt,
+  FaJs,
+  FaGitAlt,
+  FaFigma,
+  FaSearch,
+  FaDatabase,
+  FaWordpress,
+  FaCode,
+  FaChrome,
+  FaPenNib,
+  FaPalette,
+  FaImage,
 } from 'react-icons/fa';
 
 import {
-  SiTailwindcss, SiSass, SiRedux, SiNextdotjs, SiTypescript,
-  SiGoogleanalytics, SiGoogleads, SiSemrush, SiJira, SiPostman,
-  SiGithub, SiGitlab
+  SiTailwindcss,
+  SiSass,
+  SiRedux,
+  SiNextdotjs,
+  SiTypescript,
+  SiGoogleanalytics,
+  SiGoogleads,
+  SiSemrush,
+  SiJira,
+  SiPostman,
+  SiGithub,
+  SiGitlab,
 } from 'react-icons/si';
+
+
 
 import Card from './ui/Card';
 
 // 🔥 TABS
-const tabs = ['ALL', 'FRONTEND', 'STYLING', 'TOOLS', 'DIGITAL MARKETING', 'BACKEND'];
+const tabs = ['ALL', 'FRONTEND', 'STYLING', 'TOOLS', 'GRAPHIC DESIGN', 'BACKEND'];
 
 // 🔥 MAIN SKILLS
 const skillsData = [
@@ -30,10 +54,30 @@ const skillsData = [
   { name: 'Tailwind', icon: <SiTailwindcss />, color: '#38BDF8', category: 'STYLING' },
   { name: 'SASS', icon: <SiSass />, color: '#CC6699', category: 'STYLING' },
 
-  { name: 'Google Analytics', icon: <SiGoogleanalytics />, color: '#E37400', category: 'DIGITAL MARKETING' },
-  { name: 'Google Ads', icon: <SiGoogleads />, color: '#4285F4', category: 'DIGITAL MARKETING' },
-  { name: 'SEMrush', icon: <SiSemrush />, color: '#FF642D', category: 'DIGITAL MARKETING' },
-  { name: 'SEO / SMO', icon: <FaSearch />, color: '#22c55e', category: 'DIGITAL MARKETING' },
+  {
+  name: 'Figma',
+  icon: <FaFigma />,
+  color: '#F24E1E',
+  category: 'GRAPHIC DESIGN',
+},
+{
+  name: 'Adobe XD',
+  icon: <FaPenNib />,
+  color: '#FF61F6',
+  category: 'GRAPHIC DESIGN',
+},
+{
+  name: 'Adobe Photoshop',
+  icon: <FaImage />,
+  color: '#31A8FF',
+  category: 'GRAPHIC DESIGN',
+},
+{
+  name: 'Adobe Illustrator',
+  icon: <FaPalette />,
+  color: '#FF9A00',
+  category: 'GRAPHIC DESIGN',
+},
 
   { name: 'MySQL', icon: <FaDatabase />, color: '#00758F', category: 'BACKEND' },
   { name: 'SQL', icon: <FaDatabase />, color: '#f97316', category: 'BACKEND' },
@@ -57,12 +101,28 @@ const toolsGrouped = {
     { name: 'Postman', icon: <SiPostman />, color: '#FF6C37' },
     { name: 'JIRA', icon: <SiJira />, color: '#0052CC' },
   ],
-  'SEO & Analytics': [
-    { name: 'Google Analytics', icon: <SiGoogleanalytics />, color: '#E37400' },
-    { name: 'Google Ads', icon: <SiGoogleads />, color: '#4285F4' },
-    { name: 'SEMrush', icon: <SiSemrush />, color: '#FF642D' },
-    { name: 'SEO / SMO', icon: <FaSearch />, color: '#22c55e' },
-  ],
+  'Graphic Design': [
+  {
+    name: 'Figma',
+    icon: <FaFigma />,
+    color: '#F24E1E',
+  },
+  {
+    name: 'Adobe XD',
+    icon: <FaPenNib />,
+    color: '#FF61F6',
+  },
+  {
+    name: 'Adobe Photoshop',
+    icon: <FaImage />,
+    color: '#31A8FF',
+  },
+  {
+    name: 'Adobe Illustrator',
+    icon: <FaPalette />,
+    color: '#FF9A00',
+  },
+],
 };
 
 export default function Skills() {
