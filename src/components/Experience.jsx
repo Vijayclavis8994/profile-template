@@ -42,29 +42,30 @@ const EXPERIENCE = [
         }
     },
     {
-        role: 'Software Developer',
-        company: 'SKS Ispat and Power Ltd.',
-        location: 'Raipur, India',
+        role: 'HTML DEVELOPER',
+        company: 'SageNext Infotech LLC',
+        location: 'Noida, India',
         workType: 'Full-time',
         workLocation: 'Onsite',
-        skills: ['Oracle D2K', 'SQL', 'Reporting', 'Debugging'],
-        duration: 'Feb 2017 – Mar 2018',
-        desc: 'Developed and maintained Oracle D2K reports and enterprise solutions, focusing on data accuracy, performance, and business requirements.',
+        skills: ['HTML5', ' CSS3', 'jQuery', 'REST APIs', 'third-party integrations'],
+        duration: 'July 2021 – July 2022',
+        desc: 'Developed semantic, tableless HTML/CSS layouts for multiple client projects, with a strong focus on accessibility, WCAG compliance, responsive design, and timely delivery.',
         points: [
-            'Designed and developed Oracle D2K reports based on business requirements.',
-            'Analyzed change requests and implemented modifications for evolving needs.',
-            'Ensured data accuracy and optimized report performance.',
-            'Collaborated with cross-functional teams for testing and successful delivery.'
+        'Developed semantic and tableless HTML/CSS layouts for 10+ client projects simultaneously.',
+        'Maintained high standards of accessibility and WCAG compliance across all projects.',
+        'Created responsive, clean, and user-friendly interfaces based on client requirements.',
+        'Delivered all assigned projects on schedule in a fast-paced agency environment.',
+        'Supported a team managing 20+ active client accounts while maintaining consistent quality.'
         ],
-        projects: ['Newton ERP'],
-        logo: '/sks-logo.jpg',
+        projects: ['Thesagenext', 'Zoylee'],
+        logo: '/sagenext-logo.jpg',
         socials: {
-            linkedin: 'https://www.linkedin.com/company/sks-ispat-&-power-ltd-/',
-            instagram: 'https://www.instagram.com/sksispat01/',
-            facebook: 'https://www.facebook.com/people/SKS-Ispat/61577741583646/',
-            twitter: 'https://x.com/sksispat01',
-            youtube: 'https://www.youtube.com/@SKSIspatandPowerLtd',
-            website: 'https://www.sksispat.com/'
+            linkedin: 'https://www.linkedin.com/company/sagenext-infotech-llc/',
+            instagram: 'https://www.instagram.com/sagenext_infotech/',
+            facebook: 'https://www.facebook.com/sagenextinfo',
+            twitter: 'https://x.com/sagenextinfo',
+            youtube: 'https://www.youtube.com/user/sagenextinfo',
+            website: 'https://www.thesagenext.com/'
         }
     },
     {
