@@ -26,7 +26,7 @@ export default function About() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
           >
-            Frontend Developer with 3+ years of experience building scalable web applications, single-page applications (SPAs), and modern eCommerce solutions. Proficient in Angular, React, and Next.js, with strong expertise in TypeScript and JavaScript. Skilled in developing responsive, high-performance user interfaces, integrating RESTful APIs, and optimizing applications for speed and scalability.
+            Frontend Developer with 5+ years of experience building scalable web applications, single-page applications (SPAs), and modern eCommerce solutions. Proficient in Angular, React, and Next.js, with strong expertise in TypeScript and JavaScript. Skilled in developing responsive, high-performance user interfaces, integrating RESTful APIs, and optimizing applications for speed and scalability.
           </motion.p>
 
           <motion.p
@@ -34,7 +34,7 @@ export default function About() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
           >
-            Alongside frontend development, I have a strong understanding of digital marketing concepts including SEO, performance analytics, and conversion-focused design. This allows me to build applications that are not only technically strong but also aligned with business growth and user engagement.
+            Alongside frontend development, I have a strong understanding of UI/UX design principles and graphic design, enabling me to create visually appealing, intuitive, and user-centric digital experiences. My expertise in wireframing, prototyping, branding, and design tools allows me to build applications that are not only technically robust but also aesthetically engaging and focused on delivering an exceptional user experience.
           </motion.p>
 
           <motion.p

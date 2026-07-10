@@ -66,7 +66,7 @@ export default function Education() {
 
                             {/* BUTTON */}
                             <a
-                                href="https://www.vbspu.ac.in/en"
+                                href="https://www.glocaluniversity.edu.in/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >

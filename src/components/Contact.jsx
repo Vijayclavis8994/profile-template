@@ -22,7 +22,7 @@ import { SiWhatsapp } from 'react-icons/si';
 
 export default function Contact() {
   return (
-    <section id="contact" className="space-y-6">
+    <section id="contact" className="space-y-6 pb-20 sm:pb-0">
       <Card className="p-6 text-center">
         <div className="space-y-5">
 
@@ -44,18 +44,11 @@ export default function Contact() {
             animate={{ opacity: 1, y: 0 }}
             className="mt-2 max-w-[700px] mx-auto text-center text-sm text-slate-300 leading-relaxed"
           >
-            I’m active across multiple platforms and typically respond within 24 hours. I can help you with frontend development (React, Angular, Next.js), performance optimization, API integration, and digital marketing strategies including SEO and analytics to grow your product effectively.
+            I’m active across multiple platforms and typically respond within 24 hours. I can help you with frontend development (React, Angular, Next.js), UI/UX design, graphic design, responsive web development, API integration, and performance optimization to build modern, visually engaging, and user-friendly web applications.
           </motion.p>
 
           {/* 🔥 CONTACT INFO */}
           <div className="flex flex-col items-center gap-3 text-sm text-slate-300 max-w-[600px] mx-auto text-left">
-
-            <div className="flex items-center gap-2">
-              <FiMapPin className="text-yellow-400" />
-              <span>
-                Mayur Vihar, Delhi, India - 110096
-              </span>
-            </div>
 
             <div className="flex items-center gap-2">
               <FiPhone className="text-yellow-400" />
@@ -76,6 +69,13 @@ export default function Contact() {
               <a href="mailto:vijayshankar8994@gmail.com" className="hover:text-yellow-400">
                 vijayshankar8994@gmail.com
               </a>
+            </div>
+
+             <div className="flex items-center gap-2">
+              <FiMapPin className="text-yellow-400" />
+              <span>
+                Delhi, India - 110096
+              </span>
             </div>
 
           </div>
